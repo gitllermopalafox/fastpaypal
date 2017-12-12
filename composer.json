@@ -1,0 +1,24 @@
+{
+    "name": "gmopx/fast-paypal",
+    "description": "My personal PayPal express checkout implementation for Laravel.",
+    "require": {
+        "paypal/rest-api-sdk-php": "^1.13"
+    },
+
+    "license": "MIT",
+
+    "authors": [
+          {
+              "name": "Guillermo Palafox",
+              "email": "palafox.87@gmail.com"
+          }
+      ],
+
+    "minimum-stability": "dev",
+
+    "autoload": {
+        "psr-4": {
+            "Gmopx\\FastPaypal\\": "src/"
+        }
+    }
+}
